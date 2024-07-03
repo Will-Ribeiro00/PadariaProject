@@ -1,0 +1,282 @@
+[
+  {
+    "CodPedido": 84,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Williansberg Ribeiro",
+    "Valor": "R$ 45,74",
+    "StatusPedido": "pendente",
+    "DataPedido": "29/06/2024 03:01"
+  },
+  {
+    "CodPedido": 85,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Williansberg Ribeiro",
+    "Valor": "R$ 42,25",
+    "StatusPedido": "Finalizado",
+    "DataPedido": "29/06/2024 03:07"
+  },
+  {
+    "CodPedido": 86,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Williansberg Ribeiro",
+    "Valor": "R$ 30,00",
+    "StatusPedido": "Finalizado",
+    "DataPedido": "29/06/2024 03:18"
+  },
+  {
+    "CodPedido": 87,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Williansberg Ribeiro",
+    "Valor": "R$ 49,75",
+    "StatusPedido": "Finalizado",
+    "DataPedido": "29/06/2024 03:19"
+  },
+  {
+    "CodPedido": 21,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Williansberg Ribeiro",
+    "Valor": "R$ 4,00",
+    "StatusPedido": "Finalizado",
+    "DataPedido": "25/06/2024 12:29"
+  },
+  {
+    "CodPedido": 89,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Williansberg Ribeiro",
+    "Valor": "R$ 41,00",
+    "StatusPedido": "Finalizado",
+    "DataPedido": "29/06/2024 03:27"
+  },
+  {
+    "CodPedido": 91,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Williansberg Ribeiro",
+    "Valor": "R$ 29,50",
+    "StatusPedido": "Finalizado",
+    "DataPedido": "29/06/2024 03:38"
+  },
+  {
+    "CodPedido": 1,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Lilian Ribeiro",
+    "Valor": "R$ 0,00",
+    "StatusPedido": "pendente",
+    "DataPedido": "24/06/2024 14:30"
+  },
+  {
+    "CodPedido": 2,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Lilian Ribeiro",
+    "Valor": "R$ 27,25",
+    "StatusPedido": "pendente",
+    "DataPedido": "24/06/2024 14:33"
+  },
+  {
+    "CodPedido": 3,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Lilian Ribeiro",
+    "Valor": "R$ 32,50",
+    "StatusPedido": "pendente",
+    "DataPedido": "24/06/2024 14:40"
+  },
+  {
+    "CodPedido": 90,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Williansberg Ribeiro",
+    "Valor": "R$ 56,00",
+    "StatusPedido": "Finalizado",
+    "DataPedido": "29/06/2024 03:30"
+  },
+  {
+    "CodPedido": 4,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Lilian Ribeiro",
+    "Valor": "R$ 8.262,75",
+    "StatusPedido": "pendente",
+    "DataPedido": "24/06/2024 14:47"
+  },
+  {
+    "CodPedido": 5,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Lilian Ribeiro",
+    "Valor": "R$ 34,00",
+    "StatusPedido": "pendente",
+    "DataPedido": "24/06/2024 14:49"
+  },
+  {
+    "CodPedido": 6,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Lilian Ribeiro",
+    "Valor": "R$ 34,00",
+    "StatusPedido": "Finalizado",
+    "DataPedido": "24/06/2024 14:52"
+  },
+  {
+    "CodPedido": 7,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Lilian Ribeiro",
+    "Valor": "R$ 27,25",
+    "StatusPedido": "Finalizado",
+    "DataPedido": "24/06/2024 15:01"
+  },
+  {
+    "CodPedido": 8,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Gabriela Pereira",
+    "Valor": "R$ 40,75",
+    "StatusPedido": "Finalizado",
+    "DataPedido": "24/06/2024 15:02"
+  },
+  {
+    "CodPedido": 52,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Williansberg Ribeiro",
+    "Valor": "R$ 0,00",
+    "StatusPedido": "pendente",
+    "DataPedido": "27/06/2024 18:56"
+  },
+  {
+    "CodPedido": 53,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Williansberg Ribeiro",
+    "Valor": "R$ 0,00",
+    "StatusPedido": "pendente",
+    "DataPedido": "27/06/2024 18:57"
+  },
+  {
+    "CodPedido": 69,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Williansberg Ribeiro",
+    "Valor": "R$ 43,00",
+    "StatusPedido": "pendente",
+    "DataPedido": "27/06/2024 20:05"
+  },
+  {
+    "CodPedido": 70,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Williansberg Ribeiro",
+    "Valor": "R$ 86,00",
+    "StatusPedido": "Finalizado",
+    "DataPedido": "27/06/2024 20:09"
+  },
+  {
+    "CodPedido": 71,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Williansberg Ribeiro",
+    "Valor": "R$ 6,75",
+    "StatusPedido": "Finalizado",
+    "DataPedido": "27/06/2024 20:09"
+  },
+  {
+    "CodPedido": 73,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Williansberg Ribeiro",
+    "Valor": "R$ 75,00",
+    "StatusPedido": "Finalizado",
+    "DataPedido": "27/06/2024 20:12"
+  },
+  {
+    "CodPedido": 74,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Williansberg Ribeiro",
+    "Valor": "R$ 10,00",
+    "StatusPedido": "Finalizado",
+    "DataPedido": "27/06/2024 20:12"
+  },
+  {
+    "CodPedido": 75,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Williansberg Ribeiro",
+    "Valor": "R$ 56,00",
+    "StatusPedido": "Finalizado",
+    "DataPedido": "27/06/2024 20:17"
+  },
+  {
+    "CodPedido": 76,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Williansberg Ribeiro",
+    "Valor": "R$ 13,00",
+    "StatusPedido": "Finalizado",
+    "DataPedido": "27/06/2024 20:18"
+  },
+  {
+    "CodPedido": 77,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Williansberg Ribeiro",
+    "Valor": "R$ 150,00",
+    "StatusPedido": "Finalizado",
+    "DataPedido": "27/06/2024 20:22"
+  },
+  {
+    "CodPedido": 78,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Williansberg Ribeiro",
+    "Valor": "-R$ 1,50",
+    "StatusPedido": "Finalizado",
+    "DataPedido": "27/06/2024 20:23"
+  },
+  {
+    "CodPedido": 82,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Williansberg Ribeiro",
+    "Valor": "R$ 150,00",
+    "StatusPedido": "Finalizado",
+    "DataPedido": "29/06/2024 02:22"
+  },
+  {
+    "CodPedido": 83,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Williansberg Ribeiro",
+    "Valor": "R$ 7,00",
+    "StatusPedido": "Finalizado",
+    "DataPedido": "29/06/2024 02:24"
+  },
+  {
+    "CodPedido": 81,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Williansberg Ribeiro",
+    "Valor": "R$ 0,00",
+    "StatusPedido": "pendente",
+    "DataPedido": "29/06/2024 01:56"
+  },
+  {
+    "CodPedido": 92,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Williansberg Ribeiro",
+    "Valor": "R$ 54,00",
+    "StatusPedido": "Finalizado",
+    "DataPedido": "29/06/2024 03:53"
+  },
+  {
+    "CodPedido": 93,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Williansberg Ribeiro",
+    "Valor": "R$ 59,50",
+    "StatusPedido": "Finalizado",
+    "DataPedido": "29/06/2024 03:59"
+  },
+  {
+    "CodPedido": 94,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Williansberg Ribeiro",
+    "Valor": "R$ 25,00",
+    "StatusPedido": "Finalizado",
+    "DataPedido": "29/06/2024 04:03"
+  },
+  {
+    "CodPedido": 95,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Williansberg Ribeiro",
+    "Valor": "R$ 2,00",
+    "StatusPedido": "Finalizado",
+    "DataPedido": "29/06/2024 04:10"
+  },
+  {
+    "CodPedido": 96,
+    "Cliente": "22 - Thiago Batera",
+    "Funcionario": "Williansberg Ribeiro",
+    "Valor": "R$ 16,00",
+    "StatusPedido": "Finalizado",
+    "DataPedido": "29/06/2024 04:12"
+  }
+]

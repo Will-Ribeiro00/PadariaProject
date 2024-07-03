@@ -1,0 +1,23 @@
+[
+  {
+    "CodInventario": 169,
+    "Funcionario": "Williansberg Ribeiro",
+    "ProdutoInventariado": "Coca Cola 2L",
+    "QuantidadeFinal": "20Un",
+    "DataInventario": "01/07/2024 03:57"
+  },
+  {
+    "CodInventario": 170,
+    "Funcionario": "Williansberg Ribeiro",
+    "ProdutoInventariado": "Guaraná Antarctica 2L",
+    "QuantidadeFinal": "30Un",
+    "DataInventario": "01/07/2024 03:57"
+  },
+  {
+    "CodInventario": 171,
+    "Funcionario": "Williansberg Ribeiro",
+    "ProdutoInventariado": "Fanta Uva 2L",
+    "QuantidadeFinal": "20Un",
+    "DataInventario": "01/07/2024 03:57"
+  }
+]

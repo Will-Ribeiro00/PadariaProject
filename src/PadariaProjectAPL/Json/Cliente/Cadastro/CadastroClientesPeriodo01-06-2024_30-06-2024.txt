@@ -1,0 +1,18 @@
+[
+  {
+    "CodCliente": 1,
+    "cliente": "Não Identificado",
+    "CPF": "N/A",
+    "Funcionario": "Williansberg Ribeiro",
+    "Cargo": "Gerente",
+    "DataCadastro": "24/06/2024 13:48"
+  },
+  {
+    "CodCliente": 22,
+    "cliente": "Thiago Batera",
+    "CPF": "025.365.498-20",
+    "Funcionario": "Lilian Ribeiro",
+    "Cargo": "Caixa",
+    "DataCadastro": "24/06/2024 14:28"
+  }
+]

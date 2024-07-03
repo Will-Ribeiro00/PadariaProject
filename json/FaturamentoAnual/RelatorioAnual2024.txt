@@ -1,0 +1,314 @@
+[
+  {
+    "COD_PEDIDO": 22,
+    "clienteNome": "N\u00E3o Identificado",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 25
+  },
+  {
+    "COD_PEDIDO": 108,
+    "clienteNome": "N\u00E3o Identificado",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 19.99
+  },
+  {
+    "COD_PEDIDO": 109,
+    "clienteNome": "N\u00E3o Identificado",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 39.98
+  },
+  {
+    "COD_PEDIDO": 110,
+    "clienteNome": "N\u00E3o Identificado",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 13
+  },
+  {
+    "COD_PEDIDO": 20,
+    "clienteNome": "N\u00E3o Identificado",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 149
+  },
+  {
+    "COD_PEDIDO": 113,
+    "clienteNome": "N\u00E3o Identificado",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 10
+  },
+  {
+    "COD_PEDIDO": 14,
+    "clienteNome": "N\u00E3o Identificado",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 29.2
+  },
+  {
+    "COD_PEDIDO": 16,
+    "clienteNome": "N\u00E3o Identificado",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 21.75
+  },
+  {
+    "COD_PEDIDO": 17,
+    "clienteNome": "N\u00E3o Identificado",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 40.5
+  },
+  {
+    "COD_PEDIDO": 63,
+    "clienteNome": "N\u00E3o Identificado",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 28.9
+  },
+  {
+    "COD_PEDIDO": 64,
+    "clienteNome": "N\u00E3o Identificado",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 20
+  },
+  {
+    "COD_PEDIDO": 65,
+    "clienteNome": "N\u00E3o Identificado",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 13
+  },
+  {
+    "COD_PEDIDO": 66,
+    "clienteNome": "N\u00E3o Identificado",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 13
+  },
+  {
+    "COD_PEDIDO": 67,
+    "clienteNome": "N\u00E3o Identificado",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 28
+  },
+  {
+    "COD_PEDIDO": 68,
+    "clienteNome": "N\u00E3o Identificado",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 13
+  },
+  {
+    "COD_PEDIDO": 72,
+    "clienteNome": "N\u00E3o Identificado",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 90
+  },
+  {
+    "COD_PEDIDO": 111,
+    "clienteNome": "N\u00E3o Identificado",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 15
+  },
+  {
+    "COD_PEDIDO": 112,
+    "clienteNome": "N\u00E3o Identificado",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 15
+  },
+  {
+    "COD_PEDIDO": 85,
+    "clienteNome": "Thiago Batera",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 42.25
+  },
+  {
+    "COD_PEDIDO": 86,
+    "clienteNome": "Thiago Batera",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 30
+  },
+  {
+    "COD_PEDIDO": 87,
+    "clienteNome": "Thiago Batera",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 49.75
+  },
+  {
+    "COD_PEDIDO": 21,
+    "clienteNome": "Thiago Batera",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 4
+  },
+  {
+    "COD_PEDIDO": 89,
+    "clienteNome": "Thiago Batera",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 41
+  },
+  {
+    "COD_PEDIDO": 91,
+    "clienteNome": "Thiago Batera",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 29.5
+  },
+  {
+    "COD_PEDIDO": 114,
+    "clienteNome": "Thiago Batera",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 25
+  },
+  {
+    "COD_PEDIDO": 90,
+    "clienteNome": "Thiago Batera",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 56
+  },
+  {
+    "COD_PEDIDO": 70,
+    "clienteNome": "Thiago Batera",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 86
+  },
+  {
+    "COD_PEDIDO": 71,
+    "clienteNome": "Thiago Batera",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 6.75
+  },
+  {
+    "COD_PEDIDO": 73,
+    "clienteNome": "Thiago Batera",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 75
+  },
+  {
+    "COD_PEDIDO": 74,
+    "clienteNome": "Thiago Batera",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 10
+  },
+  {
+    "COD_PEDIDO": 75,
+    "clienteNome": "Thiago Batera",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 56
+  },
+  {
+    "COD_PEDIDO": 76,
+    "clienteNome": "Thiago Batera",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 13
+  },
+  {
+    "COD_PEDIDO": 77,
+    "clienteNome": "Thiago Batera",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 150
+  },
+  {
+    "COD_PEDIDO": 78,
+    "clienteNome": "Thiago Batera",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": -1.5
+  },
+  {
+    "COD_PEDIDO": 82,
+    "clienteNome": "Thiago Batera",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 150
+  },
+  {
+    "COD_PEDIDO": 83,
+    "clienteNome": "Thiago Batera",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 7
+  },
+  {
+    "COD_PEDIDO": 92,
+    "clienteNome": "Thiago Batera",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 54
+  },
+  {
+    "COD_PEDIDO": 93,
+    "clienteNome": "Thiago Batera",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 59.5
+  },
+  {
+    "COD_PEDIDO": 94,
+    "clienteNome": "Thiago Batera",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 25
+  },
+  {
+    "COD_PEDIDO": 95,
+    "clienteNome": "Thiago Batera",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 2
+  },
+  {
+    "COD_PEDIDO": 96,
+    "clienteNome": "Thiago Batera",
+    "funcionarioNome": "Williansberg Ribeiro",
+    "VALOR_TOTAL": 16
+  },
+  {
+    "COD_PEDIDO": 9,
+    "clienteNome": "N\u00E3o Identificado",
+    "funcionarioNome": "Lilian Ribeiro",
+    "VALOR_TOTAL": 13.94
+  },
+  {
+    "COD_PEDIDO": 18,
+    "clienteNome": "N\u00E3o Identificado",
+    "funcionarioNome": "Lilian Ribeiro",
+    "VALOR_TOTAL": 156
+  },
+  {
+    "COD_PEDIDO": 12,
+    "clienteNome": "N\u00E3o Identificado",
+    "funcionarioNome": "Lilian Ribeiro",
+    "VALOR_TOTAL": 47.45
+  },
+  {
+    "COD_PEDIDO": 6,
+    "clienteNome": "Thiago Batera",
+    "funcionarioNome": "Lilian Ribeiro",
+    "VALOR_TOTAL": 34
+  },
+  {
+    "COD_PEDIDO": 7,
+    "clienteNome": "Thiago Batera",
+    "funcionarioNome": "Lilian Ribeiro",
+    "VALOR_TOTAL": 27.25
+  },
+  {
+    "COD_PEDIDO": 19,
+    "clienteNome": "N\u00E3o Identificado",
+    "funcionarioNome": "Gabriela Pereira",
+    "VALOR_TOTAL": 49
+  },
+  {
+    "COD_PEDIDO": 10,
+    "clienteNome": "N\u00E3o Identificado",
+    "funcionarioNome": "Gabriela Pereira",
+    "VALOR_TOTAL": 31
+  },
+  {
+    "COD_PEDIDO": 11,
+    "clienteNome": "N\u00E3o Identificado",
+    "funcionarioNome": "Gabriela Pereira",
+    "VALOR_TOTAL": 19.5
+  },
+  {
+    "COD_PEDIDO": 13,
+    "clienteNome": "N\u00E3o Identificado",
+    "funcionarioNome": "Gabriela Pereira",
+    "VALOR_TOTAL": 50.1
+  },
+  {
+    "COD_PEDIDO": 15,
+    "clienteNome": "N\u00E3o Identificado",
+    "funcionarioNome": "Gabriela Pereira",
+    "VALOR_TOTAL": 51.95
+  },
+  {
+    "COD_PEDIDO": 8,
+    "clienteNome": "Thiago Batera",
+    "funcionarioNome": "Gabriela Pereira",
+    "VALOR_TOTAL": 40.75
+  }
+]

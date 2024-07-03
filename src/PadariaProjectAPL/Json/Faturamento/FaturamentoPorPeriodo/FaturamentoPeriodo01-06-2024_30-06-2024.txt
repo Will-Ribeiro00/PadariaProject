@@ -1,0 +1,317 @@
+[
+  {
+    "CodPedido": 22,
+    "ClienteNome": "Não Identificado",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 25,00",
+    "Data": "26/06/2024 02:57"
+  },
+  {
+    "CodPedido": 20,
+    "ClienteNome": "Não Identificado",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 149,00",
+    "Data": "25/06/2024 12:20"
+  },
+  {
+    "CodPedido": 14,
+    "ClienteNome": "Não Identificado",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 29,20",
+    "Data": "25/06/2024 11:49"
+  },
+  {
+    "CodPedido": 16,
+    "ClienteNome": "Não Identificado",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 21,75",
+    "Data": "25/06/2024 11:59"
+  },
+  {
+    "CodPedido": 17,
+    "ClienteNome": "Não Identificado",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 40,50",
+    "Data": "25/06/2024 12:01"
+  },
+  {
+    "CodPedido": 63,
+    "ClienteNome": "Não Identificado",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 28,90",
+    "Data": "27/06/2024 19:33"
+  },
+  {
+    "CodPedido": 64,
+    "ClienteNome": "Não Identificado",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 20,00",
+    "Data": "27/06/2024 19:46"
+  },
+  {
+    "CodPedido": 65,
+    "ClienteNome": "Não Identificado",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 13,00",
+    "Data": "27/06/2024 19:52"
+  },
+  {
+    "CodPedido": 66,
+    "ClienteNome": "Não Identificado",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 13,00",
+    "Data": "27/06/2024 19:54"
+  },
+  {
+    "CodPedido": 67,
+    "ClienteNome": "Não Identificado",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 28,00",
+    "Data": "27/06/2024 19:54"
+  },
+  {
+    "CodPedido": 68,
+    "ClienteNome": "Não Identificado",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 13,00",
+    "Data": "27/06/2024 19:56"
+  },
+  {
+    "CodPedido": 72,
+    "ClienteNome": "Não Identificado",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 90,00",
+    "Data": "27/06/2024 20:11"
+  },
+  {
+    "CodPedido": 85,
+    "ClienteNome": "Thiago Batera",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 42,25",
+    "Data": "29/06/2024 03:07"
+  },
+  {
+    "CodPedido": 86,
+    "ClienteNome": "Thiago Batera",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 30,00",
+    "Data": "29/06/2024 03:18"
+  },
+  {
+    "CodPedido": 87,
+    "ClienteNome": "Thiago Batera",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 49,75",
+    "Data": "29/06/2024 03:19"
+  },
+  {
+    "CodPedido": 21,
+    "ClienteNome": "Thiago Batera",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 4,00",
+    "Data": "25/06/2024 12:29"
+  },
+  {
+    "CodPedido": 89,
+    "ClienteNome": "Thiago Batera",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 41,00",
+    "Data": "29/06/2024 03:27"
+  },
+  {
+    "CodPedido": 91,
+    "ClienteNome": "Thiago Batera",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 29,50",
+    "Data": "29/06/2024 03:38"
+  },
+  {
+    "CodPedido": 90,
+    "ClienteNome": "Thiago Batera",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 56,00",
+    "Data": "29/06/2024 03:30"
+  },
+  {
+    "CodPedido": 70,
+    "ClienteNome": "Thiago Batera",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 86,00",
+    "Data": "27/06/2024 20:09"
+  },
+  {
+    "CodPedido": 71,
+    "ClienteNome": "Thiago Batera",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 6,75",
+    "Data": "27/06/2024 20:09"
+  },
+  {
+    "CodPedido": 73,
+    "ClienteNome": "Thiago Batera",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 75,00",
+    "Data": "27/06/2024 20:12"
+  },
+  {
+    "CodPedido": 74,
+    "ClienteNome": "Thiago Batera",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 10,00",
+    "Data": "27/06/2024 20:12"
+  },
+  {
+    "CodPedido": 75,
+    "ClienteNome": "Thiago Batera",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 56,00",
+    "Data": "27/06/2024 20:17"
+  },
+  {
+    "CodPedido": 76,
+    "ClienteNome": "Thiago Batera",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 13,00",
+    "Data": "27/06/2024 20:18"
+  },
+  {
+    "CodPedido": 77,
+    "ClienteNome": "Thiago Batera",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 150,00",
+    "Data": "27/06/2024 20:22"
+  },
+  {
+    "CodPedido": 78,
+    "ClienteNome": "Thiago Batera",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "-R$ 1,50",
+    "Data": "27/06/2024 20:23"
+  },
+  {
+    "CodPedido": 82,
+    "ClienteNome": "Thiago Batera",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 150,00",
+    "Data": "29/06/2024 02:22"
+  },
+  {
+    "CodPedido": 83,
+    "ClienteNome": "Thiago Batera",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 7,00",
+    "Data": "29/06/2024 02:24"
+  },
+  {
+    "CodPedido": 92,
+    "ClienteNome": "Thiago Batera",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 54,00",
+    "Data": "29/06/2024 03:53"
+  },
+  {
+    "CodPedido": 93,
+    "ClienteNome": "Thiago Batera",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 59,50",
+    "Data": "29/06/2024 03:59"
+  },
+  {
+    "CodPedido": 94,
+    "ClienteNome": "Thiago Batera",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 25,00",
+    "Data": "29/06/2024 04:03"
+  },
+  {
+    "CodPedido": 95,
+    "ClienteNome": "Thiago Batera",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 2,00",
+    "Data": "29/06/2024 04:10"
+  },
+  {
+    "CodPedido": 96,
+    "ClienteNome": "Thiago Batera",
+    "FuncionarioNome": "Williansberg Ribeiro",
+    "ValorTotal": "R$ 16,00",
+    "Data": "29/06/2024 04:12"
+  },
+  {
+    "CodPedido": 9,
+    "ClienteNome": "Não Identificado",
+    "FuncionarioNome": "Lilian Ribeiro",
+    "ValorTotal": "R$ 13,94",
+    "Data": "25/06/2024 11:06"
+  },
+  {
+    "CodPedido": 18,
+    "ClienteNome": "Não Identificado",
+    "FuncionarioNome": "Lilian Ribeiro",
+    "ValorTotal": "R$ 156,00",
+    "Data": "25/06/2024 12:12"
+  },
+  {
+    "CodPedido": 12,
+    "ClienteNome": "Não Identificado",
+    "FuncionarioNome": "Lilian Ribeiro",
+    "ValorTotal": "R$ 47,45",
+    "Data": "25/06/2024 11:27"
+  },
+  {
+    "CodPedido": 6,
+    "ClienteNome": "Thiago Batera",
+    "FuncionarioNome": "Lilian Ribeiro",
+    "ValorTotal": "R$ 34,00",
+    "Data": "24/06/2024 14:52"
+  },
+  {
+    "CodPedido": 7,
+    "ClienteNome": "Thiago Batera",
+    "FuncionarioNome": "Lilian Ribeiro",
+    "ValorTotal": "R$ 27,25",
+    "Data": "24/06/2024 15:01"
+  },
+  {
+    "CodPedido": 19,
+    "ClienteNome": "Não Identificado",
+    "FuncionarioNome": "Gabriela Pereira",
+    "ValorTotal": "R$ 49,00",
+    "Data": "25/06/2024 12:18"
+  },
+  {
+    "CodPedido": 10,
+    "ClienteNome": "Não Identificado",
+    "FuncionarioNome": "Gabriela Pereira",
+    "ValorTotal": "R$ 31,00",
+    "Data": "25/06/2024 11:09"
+  },
+  {
+    "CodPedido": 11,
+    "ClienteNome": "Não Identificado",
+    "FuncionarioNome": "Gabriela Pereira",
+    "ValorTotal": "R$ 19,50",
+    "Data": "25/06/2024 11:14"
+  },
+  {
+    "CodPedido": 13,
+    "ClienteNome": "Não Identificado",
+    "FuncionarioNome": "Gabriela Pereira",
+    "ValorTotal": "R$ 50,10",
+    "Data": "25/06/2024 11:38"
+  },
+  {
+    "CodPedido": 15,
+    "ClienteNome": "Não Identificado",
+    "FuncionarioNome": "Gabriela Pereira",
+    "ValorTotal": "R$ 51,95",
+    "Data": "25/06/2024 11:55"
+  },
+  {
+    "CodPedido": 8,
+    "ClienteNome": "Thiago Batera",
+    "FuncionarioNome": "Gabriela Pereira",
+    "ValorTotal": "R$ 40,75",
+    "Data": "24/06/2024 15:02"
+  }
+]
