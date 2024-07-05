@@ -23,6 +23,7 @@ namespace PadariaProjectAPL.repositories.Context
         public DbSet<TipoMovimentacoes> TIPO_MOVIMENTACAO { get; set; }
         public DbSet<TipoPagamentos> TIPO_PAGAMENTO { get; set; }
         public DbSet<UnidadeMedidas> UNIDADE_MEDIDA { get; set; }
+        public DbSet<Status_> STATUS { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -40,6 +41,7 @@ namespace PadariaProjectAPL.repositories.Context
             modelBuilder.Entity<Pedidos>().HasKey(p => p.COD_PEDIDO);
             modelBuilder.Entity<PedidosProdutos>().HasKey(pp => new { pp.PEDIDO_FK, pp.PRODUTO_FK });
             modelBuilder.Entity<Produtos>().HasKey(p => p.COD_PRODUTO);
+            modelBuilder.Entity<Status_>().HasKey(s => s.COD_STATUS);
             modelBuilder.Entity<TipoMovimentacoes>().HasKey(tm => tm.COD_TIPO);
             modelBuilder.Entity<TipoPagamentos>().HasKey(tp => tp.COD_TIPO_PAGAMENTO);
             modelBuilder.Entity<UnidadeMedidas>().HasKey(um => um.COD_UNIDADE_MEDIDA);
@@ -57,6 +59,7 @@ namespace PadariaProjectAPL.repositories.Context
 
             modelBuilder.Entity<Funcionarios>().HasOne(f => f.Cargo).WithMany(c => c.Funcionarios).HasForeignKey(f => f.CARGO_FK);
             modelBuilder.Entity<Funcionarios>().HasOne(f => f.Endereco).WithMany(e => e.Funcionarios).HasForeignKey(f => f.ENDERECO_FK);
+            modelBuilder.Entity<Funcionarios>().HasOne(f => f.Status).WithMany(s => s.Funcionarios).HasForeignKey(f => f.STATUS_FK);
 
             modelBuilder.Entity<Clientes>().HasOne(c => c.Endereco).WithMany(e => e.Clientes).HasForeignKey(c => c.ENDERECO_FK);
             modelBuilder.Entity<Clientes>().HasOne(c => c.Funcionario).WithMany(f => f.Clientes).HasForeignKey(c => c.FUNCIONARIO_FK);

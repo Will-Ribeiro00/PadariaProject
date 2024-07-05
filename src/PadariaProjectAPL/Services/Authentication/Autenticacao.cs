@@ -31,13 +31,20 @@ namespace PadariaProjectAPL.Services.Authentication
                                             .Include(f => f.Pedidos)
                                             .Include(f => f.Endereco)
                                             .Include(f => f.EstoqueMovimentos)
+                                            .Include(f => f.Status)
                                             .FirstOrDefaultAsync(f => f.COD_FUNCIONARIO == id && f.SENHA == senha);
                 if (confirmacao == null)
                 {
                     Console.WriteLine("Credencias inválidas");
                     Console.ReadKey();
                 }
-            } while (confirmacao == null);
+                else if(confirmacao.STATUS_FK != 1)
+                {
+                    Console.WriteLine("Usuário não ativo no sistema, consulte o gerente!");
+                    Console.ReadKey();
+                    continue;
+                }
+            } while (confirmacao == null || confirmacao.STATUS_FK != 1);
 
             return confirmacao;
         }

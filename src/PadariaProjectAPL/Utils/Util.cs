@@ -79,6 +79,7 @@ namespace PadariaProjectAPL.Utils
             var funcionario = await _context.FUNCIONARIO
                                             .Include(f => f.Endereco)
                                             .Include(f => f.Cargo)
+                                            .Include(f => f.Status)
                                             .FirstOrDefaultAsync(f => f.COD_FUNCIONARIO == codigoFuncionario);
 
             if (funcionario == null)
@@ -93,6 +94,7 @@ namespace PadariaProjectAPL.Utils
                               $"\nCPF............: {funcionario.CPF}" +
                               $"\nCelular........: {funcionario.CELULAR}" +
                               $"\nSalário........: {funcionario.SALARIO}" +
+                              $"\nStatus.........: {funcionario.Status.STATUS}" +
                               $"\nEndereço.......: {funcionario.Endereco.ENDERECO}");
 
             return funcionario;

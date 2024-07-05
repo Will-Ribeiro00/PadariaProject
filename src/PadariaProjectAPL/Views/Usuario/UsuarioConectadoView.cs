@@ -1,14 +1,17 @@
 ﻿using PadariaProjectAPL.Entities;
 using PadariaProjectAPL.repositories.DataAcess;
+using PadariaProjectAPL.Utils;
 
 namespace PadariaProjectAPL.Views.Usuario
 {
     public class UsuarioConectadoView
     {
         private readonly FuncionarioRepository _repository;
-        public UsuarioConectadoView(FuncionarioRepository repository)
+        private readonly Util _util;
+        public UsuarioConectadoView(FuncionarioRepository repository, Util util)
         {
             _repository = repository;
+            _util = util;
         }
 
         public async Task ExibirUsuario(Funcionarios funcionario)
@@ -16,11 +19,7 @@ namespace PadariaProjectAPL.Views.Usuario
             do
             {
                 Console.Clear();
-                Console.WriteLine("*********PADOKA DA VILA*********" +
-                              "\n---------------------------------------" +
-                             $"\n#{funcionario.COD_FUNCIONARIO} - {funcionario.Cargo.CARGO} - {funcionario.NOME}" +
-                             $"\n---------------------------------------" +
-                             $"\n\n***********MEUS DADOS***********");
+                _util.Cabecalho(funcionario);
 
                 Console.WriteLine($"Funcionário #{funcionario.COD_FUNCIONARIO}" +
                                   $"\nNome...........: {funcionario.NOME}" +
@@ -28,6 +27,7 @@ namespace PadariaProjectAPL.Views.Usuario
                                   $"\nCPF............: {funcionario.CPF}" +
                                   $"\nCelular........: {funcionario.CELULAR}" +
                                   $"\nSalário........: {funcionario.SALARIO}" +
+                                  $"\nStatus.........: {funcionario.Status.STATUS}" +
                                   $"\nEndereço.......: {funcionario.Endereco.ENDERECO}");
 
                 Console.WriteLine("\n1 - Atualizar Senha" +

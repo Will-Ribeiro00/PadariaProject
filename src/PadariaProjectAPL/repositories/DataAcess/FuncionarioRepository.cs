@@ -87,8 +87,10 @@ namespace PadariaProjectAPL.repositories.DataAcess
                 return;
             }
             var funcionarios = await _dbContext.FUNCIONARIO.Include(f => f.Cargo)
-                                                     .Include(f => f.Endereco)
-                                                     .Where(f => f.CARGO_FK == cargo.COD_CARGO).ToListAsync();
+                                                           .Include(f => f.Endereco)
+                                                           .Include(f => f.Cargo)
+                                                           .Include(f => f.Status)
+                                                           .Where(f => f.CARGO_FK == cargo.COD_CARGO).ToListAsync();
             Console.WriteLine($"\n{cargo.CARGO.ToUpper()}:\n");
             foreach (var funcionario in funcionarios)
             {
@@ -98,6 +100,7 @@ namespace PadariaProjectAPL.repositories.DataAcess
                               $"\nCPF............: {funcionario.CPF}" +
                               $"\nCelular........: {funcionario.CELULAR}" +
                               $"\nSalário........: {funcionario.SALARIO}" +
+                              $"\nStatus.........: {funcionario.Status.STATUS}" +
                               $"\nEndereço.......: {funcionario.Endereco.ENDERECO}" +
                               $"\n---------------------------------------------------------------------");
             }
@@ -105,7 +108,8 @@ namespace PadariaProjectAPL.repositories.DataAcess
         }
         public async Task ExibirTodosFuncionarios()
         {
-            var cargos = await _dbContext.CARGO.Include(c => c.Funcionarios).ThenInclude(f => f.Endereco).ToListAsync();
+            var cargos = await _dbContext.CARGO.Include(c => c.Funcionarios).ThenInclude(f => f.Endereco)
+                                               .Include(c => c.Funcionarios).ThenInclude(f => f.Status).ToListAsync();
 
             foreach (var cargo in cargos)
             {
@@ -118,6 +122,7 @@ namespace PadariaProjectAPL.repositories.DataAcess
                               $"\nCPF............: {funcionario.CPF}" +
                               $"\nCelular........: {funcionario.CELULAR}" +
                               $"\nSalário........: {funcionario.SALARIO}" +
+                              $"\nStatus.........: {funcionario.Status.STATUS}" +
                               $"\nEndereço.......: {funcionario.Endereco.ENDERECO}" +
                               $"\n---------------------------------------------------------------");
                 }
@@ -129,9 +134,9 @@ namespace PadariaProjectAPL.repositories.DataAcess
             var funcionario = await _util.LocalizarFuncionario();
             if (funcionario == null) return;
 
-            Console.WriteLine("1-Nome   2-Cargo   3-Celular   4-Salário   5-Endereço   6-Cancelar Operação");
+            Console.WriteLine("1-Nome | 2-Cargo | 3-Celular | 4-Salário | 5-Endereço | 6-Status | 7-Cancelar Operação");
             Console.Write("Informe o dado que deseja alterar: ");
-            while (!int.TryParse(Console.ReadLine(), out opc) || opc < 1 || opc > 6)
+            while (!int.TryParse(Console.ReadLine(), out opc) || opc < 1 || opc > 7)
             {
                 Console.WriteLine("Valor Inválido!");
                 Console.Write("Informe o dado que deseja alterar: ");
@@ -149,10 +154,10 @@ namespace PadariaProjectAPL.repositories.DataAcess
                 case 2:
                     Console.Write("Informe o código do cargo (1-Gerente  2-Caixa  3-Estoquista): ");
                     int cargo;
-                    while (!int.TryParse(Console.ReadLine(), out cargo))
+                    while (!int.TryParse(Console.ReadLine(), out cargo) || cargo < 1 || cargo > 3)
                     {
                         Console.WriteLine("Valor Inválido");
-                        Console.Write("informe o código do cargo (1-Gerente 2-Caixa 3-Estoquista): ");
+                        Console.Write("Informe o código do cargo (1-Gerente 2-Caixa 3-Estoquista): ");
                     }
                     funcionario.CARGO_FK = cargo;
                     Console.WriteLine("Funcionário alterado com sucesso!");
@@ -187,6 +192,19 @@ namespace PadariaProjectAPL.repositories.DataAcess
                     break;
 
                 case 6:
+                    Console.Write("Informe o código do status (1-Ativo  2-Atestado  3-Férias  4-Desligado): ");
+                    int status;
+                    while (!int.TryParse(Console.ReadLine(), out status) || status < 1 || status > 4)
+                    {
+                        Console.WriteLine("Valor Inválido");
+                        Console.Write("Informe o código do status (1-Ativo  2-Atestado  3-Férias  4-Desligado): ");
+                    }
+                    funcionario.STATUS_FK = status;
+                    Console.WriteLine("Funcionário alterado com sucesso!");
+                    await _dbContext.SaveChangesAsync();
+                    break;
+
+                case 7:
                     Console.WriteLine("Operação cancelada!");
                     return;
             }
