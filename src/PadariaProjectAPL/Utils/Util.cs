@@ -229,7 +229,7 @@ namespace PadariaProjectAPL.Utils
 
         public void Cabecalho(Funcionarios usuarioConectado)
         {
-            Console.WriteLine("*********PADOKA DA VILA*********" +
+            Console.WriteLine("*********MERCADINHO DA VILA*********" +
                               "\n---------------------------------------" +
                              $"\n#{usuarioConectado.COD_FUNCIONARIO} - {usuarioConectado.Cargo.CARGO} - {usuarioConectado.NOME}" +
                              $"\n---------------------------------------");

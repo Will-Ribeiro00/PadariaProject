@@ -36,9 +36,9 @@ namespace PadariaProjectAPL.Services.ServerProvider
 
             //Services
             services.AddScoped<Serializacao>();
+            services.AddScoped<Autenticacao>();
 
             //Utilidades
-            services.AddScoped<Autenticacao>();
             services.AddScoped<Util>();
 
             //Views:
